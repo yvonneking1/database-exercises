@@ -4,6 +4,8 @@ SHOW TABLES;
 
 DESCRIBE albums;
 
+SELECT * FROM albums;
+
 SELECT * FROM albums
 WHERE artist == 'Pink Floyd',
 
@@ -14,8 +16,9 @@ SELECT genre FROM albums
 WHERE NAME = 'Nevermind'
 
 SELECT * FROM albums
-WHERE release_date BETWEEN 1989
-AND 2000
+WHERE release_date BETWEEN 1990
+AND 1999
+#numbers are inclusive
 
 SELECT * FROM albums
 WHERE sales < 20

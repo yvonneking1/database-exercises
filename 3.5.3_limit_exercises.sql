@@ -24,4 +24,4 @@ AND birth_date LIKE '%-12-25'
 ORDER BY birth_date ASC, hire_date DESC
 LIMIT 5 OFFSET 45;
 
-# OFFSET = (limit x page) - offset
+# OFFSET = (page - 1) * limit

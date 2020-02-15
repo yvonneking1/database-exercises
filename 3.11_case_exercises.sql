@@ -1,5 +1,3 @@
--- Create a file named 3.11_case_exercises.sql and craft queries to return the results for the following criteria:
-
 -- 1. Write a query that returns all employees (emp_no), their department number, 
 --their start date, their end date, and a new column 'is_current_employee' that is a 1 if the employee is still with the company and 0 if not.
 
